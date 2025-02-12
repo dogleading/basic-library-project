@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Library</h1>
+    <div class="container">
+      <div class="book">
+        <h2>The Hobbit</h2>
+        <p>J.R.R. Tolkien</p>
+        <p>295 pages</p>
+        <p>Read</p>
+      </div>
+    </div>
+
+    <div class="form-container">
+      <form action="#">
+        <input type="text" id="title" placeholder="Title" />
+        <input type="text" id="author" placeholder="Author" />
+        <input type="number" id="pages" placeholder="Pages" />
+        <div class="checkbox-container">
+          <label for="read">Read</label>
+          <input type="checkbox" id="read" />
+        </div>
+        <button id="addBook">Add Book</button>
+      </form>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
